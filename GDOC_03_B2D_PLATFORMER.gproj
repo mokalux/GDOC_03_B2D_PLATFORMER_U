@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties html5_host="" html5_fbload="100" backgroundColor="#ffffff" orientation="1" exportMode="0" html5_symbols="1" logicalWidth="720" splash_v_image="" app_name="gideros_box2d" app_icon="" disableSplash="0" atv_bundle="com.yourdomain.yourapp-atv" version_code="1" macos_bundle="com.yourdomain.yourapp-macos" encryptCode="1" osx_domain="giderosmobile.com" fps="60" html5_crash="" html5_pack="0" retinaDisplay="0" win_domain="b2dplatformer.com" osx_signingId="" build_number="1" mainluaOnly="0" winrt_org="GiderosMobile" architecture="2" macos_category="5" osx_org="GiderosMobile" osx_bundle="com.yourdomain." ios_bundle="com.yourdomain." osx_category="5" winrt_package="com.yourdomain.yourapp" windowWidth="0" vsync="1" tv_icon="" touchToMouse="1" windowHeight="0" mouseTouchOrder="0" osx_installerId="" iosDevice="0" autorotation="0" splashScaleMode="0" mouseToTouch="1" scaleMode="7" version="1.0" html5_mem="256" logicalHeight="1280" splash_h_image="" html5_fbinstant="0" html5_pwa="0" html5_wasm="0" encryptAssets="1" win_org="mokatunprod">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="1" name="Easing"/>
+   <plugin enabled="1" name="JSON"/>
+   <plugin enabled="1" name="LiquidFun"/>
+   <plugin enabled="1" name="Ogg"/>
+   <plugin enabled="1" name="SceneManager"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="" name="androidSdk"/>
+    <property value="30" name="androidTarget"/>
+    <property value="" name="androidTools"/>
+    <property value="0" name="buildAab"/>
+    <property value="1" name="buildApk"/>
+    <property value="0" name="deployApk"/>
+    <property value="0" name="forOculus"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="0" name="oculusHT"/>
+    <property value="0" name="oculusHTR"/>
+    <property value="com.yourdomain.yourapp" name="packageName"/>
+    <property value="0" name="timestampApk"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="audio">
+  <file name="assets/audio/Collectibles_1.wav"/>
+  <file name="assets/audio/Collectibles_3.wav"/>
+  <file name="assets/audio/DM-CGS-16.ogg"/>
+  <file name="assets/audio/Loose_7.wav"/>
+  <file name="assets/audio/Loose_9.wav"/>
+  <file name="assets/audio/dinosaur-1.wav"/>
+  <file name="assets/audio/dinosaur-2.wav"/>
+  <file name="assets/audio/dinosaur-3.wav"/>
+  <file name="assets/audio/dinosaur-4.wav"/>
+  <file name="assets/audio/dinosaur-5.wav"/>
+  <file name="assets/audio/hit-1.wav"/>
+  <file name="assets/audio/hit-2.wav"/>
+  <file name="assets/audio/jump.wav"/>
+  <file name="assets/audio/shoot.wav"/>
+ </folder>
+ <folder name="classes">
+  <file name="assets/classes/GCam.lua"/>
+  <file name="assets/classes/UISlider.lua"/>
+  <file name="assets/classes/audio.lua"/>
+  <file excludeFromExecution="1" name="assets/classes/audiomanager.lua"/>
+  <file name="assets/classes/buttonMonster.lua"/>
+  <file name="assets/classes/contour.lua"/>
+  <file excludeFromExecution="1" name="assets/classes/mobileX.lua"/>
+  <file name="assets/classes/mobileX2.lua"/>
+  <file name="assets/classes/save_prefs.lua"/>
+  <file name="assets/classes/textfield.lua"/>
+ </folder>
+ <folder name="fonts">
+  <file name="assets/fonts/Cabin-Regular-TTF.ttf"/>
+ </folder>
+ <folder name="gfx">
+  <folder name="anims">
+   <file name="assets/gfx/anims/Body_Topo2_0027.png"/>
+  </folder>
+  <folder name="collectibles">
+   <file name="assets/gfx/collectibles/collectibles.lua"/>
+   <file name="assets/gfx/collectibles/key1_0001.png"/>
+   <file name="assets/gfx/collectibles/lionhead4_0001.png"/>
+   <file name="assets/gfx/collectibles/obj0071.png"/>
+  </folder>
+  <folder name="fx">
+   <file name="assets/gfx/fx/ember.png"/>
+   <file name="assets/gfx/fx/exp1.png"/>
+   <file name="assets/gfx/fx/exp2.png"/>
+   <file name="assets/gfx/fx/fire.png"/>
+   <file name="assets/gfx/fx/flash01.png"/>
+   <file name="assets/gfx/fx/flash01_small.png"/>
+   <file name="assets/gfx/fx/flash_blue_big.png"/>
+   <file name="assets/gfx/fx/fx.lua"/>
+   <file name="assets/gfx/fx/obj_explosion1 (2).png"/>
+   <file name="assets/gfx/fx/obj_lightningoverlay.png"/>
+   <file name="assets/gfx/fx/ptexture.png"/>
+   <file name="assets/gfx/fx/shockwave1.png"/>
+   <file name="assets/gfx/fx/smoke.png"/>
+   <file name="assets/gfx/fx/snow.png"/>
+   <file name="assets/gfx/fx/sparkle01.png"/>
+  </folder>
+  <folder name="menu"/>
+  <folder name="playable">
+   <file name="assets/gfx/playable/Bob.png"/>
+   <file name="assets/gfx/playable/George.png"/>
+   <file name="assets/gfx/playable/Leela.png"/>
+   <file name="assets/gfx/playable/Stan.png"/>
+   <file name="assets/gfx/playable/bat_fly.png"/>
+   <file name="assets/gfx/playable/bulletA.png"/>
+   <file name="assets/gfx/playable/bulletB.png"/>
+   <file name="assets/gfx/playable/character_base.lua"/>
+   <file name="assets/gfx/playable/dance_5x5.png"/>
+   <file name="assets/gfx/playable/escarabajo_idle.png"/>
+   <file name="assets/gfx/playable/escarabajo_walk.png"/>
+   <file name="assets/gfx/playable/lf_dyn_bullet.lua"/>
+   <file name="assets/gfx/playable/low_spec_pterosaur_oga_die.png"/>
+   <file name="assets/gfx/playable/low_spec_pterosaur_oga_flyA_bright.png"/>
+   <file name="assets/gfx/playable/low_spec_pterosaur_oga_flyA_dark.png"/>
+   <file name="assets/gfx/playable/low_spec_pterosaur_oga_flyB_bright.png"/>
+   <file name="assets/gfx/playable/low_spec_triceratops_idle.png"/>
+   <file name="assets/gfx/playable/low_spec_triceratops_walk.png"/>
+   <file name="assets/gfx/playable/nmes.lua"/>
+   <file name="assets/gfx/playable/player.lua"/>
+   <file name="assets/gfx/playable/slime.png"/>
+   <file name="assets/gfx/playable/y_bot_climb_down.png"/>
+   <file name="assets/gfx/playable/y_bot_climb_up.png"/>
+   <file name="assets/gfx/playable/y_bot_idle.png"/>
+   <file name="assets/gfx/playable/y_bot_jump4.png"/>
+   <file name="assets/gfx/playable/y_bot_running.png"/>
+  </folder>
+  <folder name="props">
+   <file name="assets/gfx/props/ladder01.png"/>
+   <file name="assets/gfx/props/ladder02.png"/>
+  </folder>
+  <folder name="ui">
+   <file name="assets/gfx/ui/Cross grey.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0087.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0088.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0089.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0090.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0125_Round-Rect.png"/>
+   <file name="assets/gfx/ui/item3.png"/>
+   <file name="assets/gfx/ui/red.png"/>
+   <file name="assets/gfx/ui/trp.png"/>
+  </folder>
+  <file name="assets/gfx/lf_joint_prismatic_mpf.lua"/>
+ </folder>
+ <folder name="scenes">
+  <file name="assets/scenes/levelX.lua"/>
+  <file name="assets/scenes/level_select.lua"/>
+  <file name="assets/scenes/menu.lua"/>
+  <file name="assets/scenes/options.lua"/>
+ </folder>
+ <folder name="tiled">
+  <folder name="levels">
+   <folder name="flowers">
+    <file name="assets/tiled/levels/flowers/flower005_0002.png"/>
+    <file name="assets/tiled/levels/flowers/flower005_0004.png"/>
+    <file name="assets/tiled/levels/flowers/flower005_v2_0001.png"/>
+    <file name="assets/tiled/levels/flowers/flower005_v2_0002.png"/>
+    <file name="assets/tiled/levels/flowers/flower005_v2_0003.png"/>
+    <file name="assets/tiled/levels/flowers/flower005m_0001.png"/>
+    <file name="assets/tiled/levels/flowers/flower005m_0002.png"/>
+    <file name="assets/tiled/levels/flowers/flower005m_0003.png"/>
+    <file name="assets/tiled/levels/flowers/flower005m_0006.png"/>
+   </folder>
+   <folder name="grounds">
+    <file name="assets/tiled/levels/grounds/brown_qussair_granite.jpg"/>
+    <file name="assets/tiled/levels/grounds/cracked_gray_rock.jpg"/>
+    <file name="assets/tiled/levels/grounds/egyptian_marble.jpg"/>
+    <file name="assets/tiled/levels/grounds/etruscan_rose.jpg"/>
+    <file name="assets/tiled/levels/grounds/flower_rock.jpg"/>
+    <file name="assets/tiled/levels/grounds/geiger_s_cave.jpg"/>
+    <file name="assets/tiled/levels/grounds/gold_deposit.jpg"/>
+    <file name="assets/tiled/levels/grounds/granite_wall.jpg"/>
+    <file name="assets/tiled/levels/grounds/just_add_bison.jpg"/>
+    <file name="assets/tiled/levels/grounds/light_bumpy_rock.jpg"/>
+    <file name="assets/tiled/levels/grounds/lunar_view.jpg"/>
+    <file name="assets/tiled/levels/grounds/phoenix_feathers.jpg"/>
+    <file name="assets/tiled/levels/grounds/web_grass01.jpg"/>
+   </folder>
+   <folder name="nice_village_pack">
+    <file name="assets/tiled/levels/nice_village_pack/Boole_1_0001.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_18_0005.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_18_0006.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_19.001_0007.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_20.001_0008.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_20.001_0009.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_24.001_0011.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_25_0012.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_26_0013.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_26_0014.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_26_0015.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_26_0016.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_27_0017.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_27_0018.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_27_0019.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_33_0020.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_33_0021.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_33_0022.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_33_0023.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_34_0024.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_34_0025.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_44_0026.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_8_0002.png"/>
+    <file name="assets/tiled/levels/nice_village_pack/Cube_9_0003.png"/>
+   </folder>
+   <folder name="parallax_bgs">
+    <file name="assets/tiled/levels/parallax_bgs/forest01.png"/>
+    <file name="assets/tiled/levels/parallax_bgs/forestXX.png"/>
+    <file name="assets/tiled/levels/parallax_bgs/mountain_village.png"/>
+    <file name="assets/tiled/levels/parallax_bgs/mountain_village2.png"/>
+    <file name="assets/tiled/levels/parallax_bgs/mountain_villageX.png"/>
+   </folder>
+   <folder name="rocks">
+    <file name="assets/tiled/levels/rocks/PBR_Rock_Cliffs_Pack1_0001.png"/>
+    <file name="assets/tiled/levels/rocks/PBR_Rock_Cliffs_Pack1_0010.png"/>
+    <file name="assets/tiled/levels/rocks/PBR_Rock_Cliffs_Pack1_0021.png"/>
+   </folder>
+   <folder name="themes">
+    <folder name="mountain">
+     <file name="assets/tiled/levels/themes/mountain/pexels-artem-lysenko-2014460.txt"/>
+    </folder>
+   </folder>
+   <folder name="trees">
+    <file name="assets/tiled/levels/trees/bush_0003.png"/>
+    <file name="assets/tiled/levels/trees/bush_0011.png"/>
+    <file name="assets/tiled/levels/trees/bush_0021.png"/>
+    <file name="assets/tiled/levels/trees/tree03_0004.png"/>
+    <file name="assets/tiled/levels/trees/tree03_0006.png"/>
+    <file name="assets/tiled/levels/trees/tree03_0008.png"/>
+   </folder>
+   <folder name="various">
+    <file name="assets/tiled/levels/various/RopeBridge1_0028.png"/>
+   </folder>
+   <file excludeFromExecution="1" name="assets/tiled/levels/abstract03.lua"/>
+   <file excludeFromPackage="1" name="assets/tiled/levels/abstract03.tmx"/>
+   <file excludeFromExecution="1" name="assets/tiled/levels/abstract05.lua"/>
+   <file excludeFromPackage="1" name="assets/tiled/levels/abstract05.tmx"/>
+   <file excludeFromExecution="1" name="assets/tiled/levels/forest01.lua"/>
+   <file excludeFromPackage="1" name="assets/tiled/levels/forest01.tmx"/>
+   <file excludeFromExecution="1" name="assets/tiled/levels/land.lua"/>
+   <file name="assets/tiled/levels/land.tmx"/>
+  </folder>
+  <file name="assets/tiled/tiled_contour_dynamic.lua"/>
+  <file name="assets/tiled/tiled_contour_static.lua"/>
+  <file name="assets/tiled/tiled_door.lua"/>
+  <file name="assets/tiled/tiled_ellipse.lua"/>
+  <file name="assets/tiled/tiled_levels.lua"/>
+  <file name="assets/tiled/tiled_levels_playable.lua"/>
+  <file name="assets/tiled/tiled_mvpf.lua"/>
+  <file name="assets/tiled/tiled_polygon.lua"/>
+  <file name="assets/tiled/tiled_ptpf.lua"/>
+  <file name="assets/tiled/tiled_rectangle.lua"/>
+ </folder>
+ <file name="assets/init.lua"/>
+ <file name="assets/main.lua"/>
+</project>
